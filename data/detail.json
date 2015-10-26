@@ -24,7 +24,7 @@
 				"CashBack": "53",
 				"BreakFast": "无早餐",
 				"GuaranteeRule": true,
-				"PaymentType": "0",
+				"PaymentType": "1",
 				"ValueAdd": null,
 				"Status": true,
 				"Description": "预订",
