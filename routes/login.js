@@ -10,9 +10,15 @@ router.post('/', function(req, res, next) {
 		return (user.username == req.body.username && user.password == req.body.password)
 	})
 	if(user.length>0){
-		res.send('1')
+		res.json({
+			state:1,
+			user:user
+		})
 	}else{
-		res.send('0')
+		res.json({
+			state:0,
+			user:null
+		})
 	}
 });
 
